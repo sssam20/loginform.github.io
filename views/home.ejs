@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    body{
+       
+        background-color: #495057;
+      
+        
+    }
+    .fm{
+        width: 40%;
+        height: 100%;
+        margin-top: 15%;
+        margin-left: 29%;
+        border: 3px solid rgb(13, 13, 12);
+       background-color: white;
+        border-radius: 8px;
+    }
+    .title{
+        text-align: center;
+    }
+    .but{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    li{
+        list-style: none;
+        text-decoration: none;
+        
+    }
+    div{
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+   </style>
+</head>
+<body>
+   
+    <form class="fm" action="/login" method="POST">
+        <h1 class="title">This is home page</h1>
+        <div>username <br> <input type="text" name="username"
+            placeholder="username">
+            <br> <br>
+        password  <br> <input type="password" name="password" 
+            placeholder="password">
+        <button>login</button>
+    </div>
+    <br><br>
+    <ul class="but">
+
+        <li><button><a href="/register">Sign up!!</a></button></li>
+        <li><button><a href="/login">Login</a></button></li>
+        <li><button><a href="/logout">Logout</a></button></li>
+        </ul>
+        <br> <br> <br>
+
+    </form>
+  
+</body>
+</html>
